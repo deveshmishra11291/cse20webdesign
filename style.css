@@ -1,29 +1,23 @@
+/* Custom Styling */
+
 body{
-    background-color: #f1f3f5;
     font-family: Arial, sans-serif;
 }
 
-/* Card Image */
-.card img{
-    height: 220px;
-    object-fit: cover;
-}
-
-/* Card Hover Effect */
-.card{
+/* Smooth Hover Effect */
+button{
     transition: 0.3s;
 }
 
-.card:hover{
+button:hover{
+    transform: scale(1.05);
+}
+
+/* Card Hover */
+div.shadow-md{
+    transition: 0.3s;
+}
+
+div.shadow-md:hover{
     transform: translateY(-8px);
-}
-
-/* Navbar */
-.navbar-brand{
-    font-weight: bold;
-}
-
-/* Footer */
-footer{
-    font-size: 14px;
 }
